@@ -1,9 +1,9 @@
-class persegi:
+class Persegi:
     
     def __init__(self,sisi:float):
         self.__sisi=sisi
         
-    def set_sisi(self, sisi:float)-> None:
+    def set_sisi(self, sisi:float):
         self.__sisi= sisi
         
     def get_sisi(self)-> float:
