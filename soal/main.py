@@ -1,10 +1,11 @@
 from balok import Balok
-from persegi import PersegiController 
-from persegi_view import PersegiView 
+from hitung_balok import HitungBalok 
+from tampil_balok import tampilBalok 
 
-persegi= Persegi(2)
-penghitung_persegi= PersegiController()
-penampil_persegi= PersegiView()
+balok= balok(1)
+penghitung_balok= PerhitunganBalok()
+penampil_balok= tampilBalok()
 
-penampil_persegi.show_luas(persegi, penghitug_persegi)
-penampil_persegi.show_keliling(persegi, penghitung_persegi)
+penampil_balok.show_panjang(balok, penghitug_balok)
+penampil_balok.show_lebar(balok, penghitung_balok) 
+penampil_balok.show_tinggi(balok, penghitung_balok)

@@ -1,4 +1,4 @@
-from persegi import *
+from persegi import Persegi
 class Hitung:
     def hitung_luas(self,persegi : Persegi)->float:
         return persegi.get_sisi()*persegi.get_sisi()
