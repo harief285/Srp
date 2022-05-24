@@ -1,10 +1,10 @@
 from persegi import Persegi 
-from persegi_controller import PersegiController 
-from persegi_view import PersegiView 
+from hitung_persegi import * 
+from persegi_view import Show 
 
 persegi= Persegi(2)
-penghitung_persegi= PersegiController()
-penampil_persegi= PersegiView()
+penghitung_persegi= Hitung()
+penampil_persegi= Show()
 
-penampil_persegi.show_luas(persegi, penghitug_persegi)
+penampil_persegi.show_luas(persegi, penghitung_persegi)
 penampil_persegi.show_keliling(persegi, penghitung_persegi)
