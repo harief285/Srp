@@ -7,4 +7,4 @@ class Persegi(PerhitungBangunDatar):
         return 2*((persegi.get_panjang()+persegi.get_lebar()))
     
     def hitung_luas(self,persegi:Persegi)->float:
-        return((persegi.get_panjang()*persegi.get_lebar()))
+        return(persegi.get_panjang()*persegi.get_lebar())
