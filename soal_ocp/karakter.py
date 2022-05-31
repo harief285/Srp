@@ -1,10 +1,10 @@
- class karakter:
+from abc import ABC, abstractmethod
+class Karakter(ABC):
         
-    def __init__(self,nama:str):
+    def __init__(self,nama:str, power:int):
         self.__nama=nama
-        
-    def __init__(self,power:int):
-        self.__power= power
-        
-    def __init__(self,nama:str, )-> float:
-        retu
+        self.__power=power
+    
+    @abstractmethod
+    def menyerang (self):
+        pass
