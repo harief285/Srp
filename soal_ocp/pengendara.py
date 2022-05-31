@@ -1,9 +1,8 @@
 from karakter import Karakter
 
-class Pengendara(Karakter):
+class KarakterPengendara(Karakter):
+    def __init__(self, nama: str, power: int):
+        super().__init__(nama, power)
     
-    def nama (self, karakter: Karakter)->str:
-        return ("NAMA",karakter.get_nama)
-
-    def power (self, karakter: Karakter)-> float:
-        return ("POWERRRRR",karakter.get_power)
+    def menyerang(self)->str:
+        print("Mengeluarkan ",self.get_nama(),self.get_power(),"power dengan menabrakan diri")
