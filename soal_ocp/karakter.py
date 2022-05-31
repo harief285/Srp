@@ -8,10 +8,8 @@ class Karakter(ABC):
     def get_nama(self):
         return self.__nama
 
-    def get(self, power:)
-    
-    return power:power 
-        
+    def get_power(self):
+        return self.__power 
     
     @abstractmethod
     def menyerang (self):
