@@ -23,5 +23,5 @@ class Balok:
     
     
     def set_tinggi(tinggi:float): 
-        self.__tinggi=tinggi \\\\
+        self.__tinggi=tinggi
             
