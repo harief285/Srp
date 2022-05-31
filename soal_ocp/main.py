@@ -11,3 +11,4 @@ print(mukul.menyerang())
 
 tembak=KarakterPenembak("Pistor dor",70)
 print(tembak.menyerang())
+
