@@ -1,4 +1,4 @@
-from interface. kehadiran_akademik import KehadiranAkademik
+from kehadiran_akademik import KehadiranAkademik
 from abc import ABC,abstractmethod
 
 
