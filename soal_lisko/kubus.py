@@ -1,4 +1,4 @@
-from perhitungruang import PenghitungBangunRuang
+from bangunruang import PenghitungBangunRuang
 class Kubus(PenghitungBangunRuang):
     def __init__(self, sisi : float):
         super().__init__(sisi)
