@@ -7,7 +7,10 @@ from kartukredit import KartuKredit
 # print(trans.do_payment())
 
 debit=KartuDebit()
-print(debit.do_transaction(1000))
-
 kredit=KartuKredit()
-print(kredit.do_transaction(2000))
+
+transaksi = Transaksi(debit)
+transaksi.do_payment(25000000)
+
+trans = Transaksi(kredit)
+trans.do_payment(4000000)

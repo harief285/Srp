@@ -1,6 +1,6 @@
 from kartubank import KartuBank
 
 class KartuDebit(KartuBank):
+    
     def do_transaction(self,total :int):
-        self.total=total
-        print("kartuDebit",self.total)
+        print(f"Transaksi Sejumlah {total} Mengunakan Debit")
