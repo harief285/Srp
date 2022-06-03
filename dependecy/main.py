@@ -1,9 +1,9 @@
 from saklar import Saklar
 from kipas_angin import KipasAngin
-from lampu import lampu
+from lampu import Lampu
 
 lampu = Lampu()
-kipas = kipasAngin()
+kipas = KipasAngin()
 
 saklar_1 = Saklar(lampu)
 saklar_1.berubah()
