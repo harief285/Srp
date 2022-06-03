@@ -1,6 +1,6 @@
 from driver_controller import DriverController
 from pembeli_controller import PembeliController
-from penjual_controller import *
+from penjual_controller import PenjualController
 
 pembeli=PembeliController()
 pj_1=PenjualController()
