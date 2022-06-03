@@ -1,11 +1,11 @@
 from balok import Balok
-from hitung_balok import HitungBalok 
-from tampil_balok import tampilBalok 
+from hitung_balok import Hitung
+from tampil_balok import ShowBalok
 
-balok= balok(1)
-penghitung_balok= PerhitunganBalok()
-penampil_balok= tampilBalok()
+balok= Balok(8,7,6)
+penghitung_balok= Hitung()
+penampil_balok= ShowBalok()
 
-penampil_balok.show_panjang(balok, penghitug_balok)
-penampil_balok.show_lebar(balok, penghitung_balok) 
-penampil_balok.show_tinggi(balok, penghitung_balok)
+penampil_balok.show_luas(balok, penghitung_balok)
+penampil_balok.show_keliling(balok, penghitung_balok) 
+penampil_balok.show_volume(balok, penghitung_balok)

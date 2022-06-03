@@ -1,3 +1,4 @@
+from balok import Balok
 class Hitung:
     def hitung_luas(self,balok:Balok)->float:
         return 2*((balok.get_panjang()*balok.get_lebar())+(balok.get_panjang()*balok.get_tinggi())+(balok.get_lebar()*balok.get_tinggi()))

@@ -1,6 +1,5 @@
-from abc import ABC 
+from abc import ABC
 
 class PembeliOperation(ABC):
-    
-    def memesan_pesanam(self)-> None:
+    def memesan_pesanan(self)-> None:
         pass
